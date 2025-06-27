@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>Закрывающий тег</title>
   <link rel="icon" href="./svg/favicon.svg" type="image/svg+xml" />
+  <link rel="apple-touch-icon" href="./images/apple-touch-icon.png" sizes="180x180"/>
   <link rel="stylesheet" href="./fonts/fonts.css" />
   <link rel="stylesheet" href="./styles/variables.css" />
   <link rel="stylesheet" href="./styles/globals.css" />
@@ -15,7 +16,7 @@
 
 <body class="page">
   <header class="header horizontal-fill">
-    <span class="header__logo">&lt;/HTML&gt;</span>
+    <a href="#0"><span class="header__logo">&lt;/HTML&gt;</span></a>
     <h1 class="header__title">закрывающий тег</h1>
   </header>
   <main>
@@ -25,7 +26,7 @@
           <h2 class="card__header">Фритрек и нулевой спринт: Подготовка к работе</h2>
           <div class="card__image-section">
             <label class="label uppercase">&lt;/HTML&gt;</label>
-            <img class="card__image" alt="Изображение фургона" src="./images/image.png" />
+            <img class="card__image" alt="Изображение фургона" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -36,7 +37,7 @@
               Было непонятно.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -54,7 +55,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -66,7 +67,7 @@
           <h2 class="card__header">1 спринт: Я — чистый лист</h2>
           <div class="card__image-section">
             <label class="label uppercase">&lt;/HTML&gt;</label>
-            <img class="card__image filter-grayscale" alt="Изображение фургона с эффектом grayscale" src="./images/image.png" />
+            <img class="card__image filter-grayscale" alt="Изображение фургона с эффектом grayscale" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -79,7 +80,7 @@
               Было странно.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -97,7 +98,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -109,7 +110,7 @@
           <h2 class="card__header">1 спринт: А если не получится?</h2>
           <div class="card__image-section">
             <label class="label uppercase">&lt;css&gt;</label>
-            <img class="card__image filter-hue-rotate" alt="Изображение фургона с эффектом hue-rotate" src="./images/image.png" />
+            <img class="card__image filter-hue-rotate" alt="Изображение фургона с эффектом hue-rotate" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -120,7 +121,7 @@
               Было интересно.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -138,7 +139,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -150,7 +151,7 @@
           <h2 class="card__header">2 спринт: Погоня за идеалом</h2>
           <div class="card__image-section">
             <label class="label">&lt;desigions&gt;</label>
-            <img class="card__image filter-contrast" alt="Изображение фургона с эффектом contrast" src="./images/image.png" />
+            <img class="card__image filter-contrast" alt="Изображение фургона с эффектом contrast" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -162,7 +163,7 @@
               Было интригующе.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -180,7 +181,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -192,7 +193,7 @@
           <h2 class="card__header">2 спринт: О тех, кто рядом</h2>
           <div class="card__image-section">
             <label class="label">care</label>
-            <img class="card__image filter-invert" alt="Изображение фургона с эффектом invert" src="./images/image.png" />
+            <img class="card__image filter-invert" alt="Изображение фургона с эффектом invert" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -205,7 +206,7 @@
               Было трудновато.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -223,7 +224,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -235,7 +236,7 @@
           <h2 class="card__header">3 спринт: Обходные стратегии</h2>
           <div class="card__image-section">
             <label class="label">&lt;support&gt;</label>
-            <img class="card__image filter-sepia" alt="Изображение фургона с эффектом sepia" src="./images/image.png" />
+            <img class="card__image filter-sepia" alt="Изображение фургона с эффектом sepia" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -246,7 +247,7 @@
               Было завораживающе.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -264,7 +265,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -276,7 +277,7 @@
           <h2 class="card__header">3 спринт: Когда опускаются руки</h2>
           <div class="card__image-section">
             <label class="label">&lt;lifes-style: none;&gt;</label>
-            <img class="card__image filter-blur" alt="Изображение фургона с эффектом blur" src="./images/image.png" />
+            <img class="card__image filter-blur" alt="Изображение фургона с эффектом blur" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -288,7 +289,7 @@
               Было, на удивление, не сложно.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -306,7 +307,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -318,7 +319,7 @@
           <h2 class="card__header">«Сейчас я здесь»</h2>
           <div class="card__image-section">
             <label class="label">&lt;experience&gt;</label>
-            <img class="card__image multifilter" alt="Изображение фургона с мультиэффектом" src="./images/image.png" />
+            <img class="card__image multifilter" alt="Изображение фургона с мультиэффектом" loading="lazy" src="./images/image.png" />
           </div>
           <div class="card__main-section">
             <p class="card__description">
@@ -331,7 +332,7 @@
               Градиенты (интересное) зло.
             </p>
             <div class="card__interactive">
-              <button class="card__icon-button">
+              <button class="card__icon-button" type="button" aria-label="Лайк">
                 <svg viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg" class="like-icon">
                   <g class="heart">
                     <path class="contour"
@@ -349,7 +350,7 @@
                     fill="var(--animation-fill-color)" />
                 </svg>
               </button>
-              <button class="card__like-button hover-fill">
+              <button class="card__like-button hover-fill" type="button" aria-label="Лайк">
                 <span class="button__text">Like</span>
               </button>
             </div>
@@ -358,7 +359,7 @@
       </li>
     </ul>
     <button type="button" class="save-button hover-fill" onclick="window['dialog-id'].showModal()"
-      aria-controls="dialog-id">
+      aria-controls="dialog-id" aria-label="Сохранить">
       <svg class="save-button__icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 29">
         <use href="./svg/floppy.svg#floppy"></use>
       </svg>
@@ -368,8 +369,8 @@
       <svg class="dialog__save-button-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 28 29">
         <use href="./svg/floppy.svg#floppy"></use>
       </svg>
-      <h2 class="dialog__header uppercase">вставьте дискету, чтобы продолжить</h2>
-      <button class="dialog__button" type="button" onclick="window['dialog-id'].close()">
+      <p class="dialog__header uppercase">вставьте дискету, чтобы продолжить</p>
+      <button class="dialog__button hover-fill" type="button" onclick="window['dialog-id'].close()" aria-label="Ок">
         <span class="dialog__button-text uppercase">ok</span>
       </button>
     </dialog>
