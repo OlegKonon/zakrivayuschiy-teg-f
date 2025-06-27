@@ -16,9 +16,9 @@
   --contour-color: #000;
   --animation-fill-color: #f00;
   --background-gradient: 
-    repeating-linear-gradient(to right, #d3d3d3, #3d3d3d 2px, transparent 2px, transparent 4px),
-    repeating-linear-gradient(to bottom, #d3d3d3, #3d3d3d 2px, transparent 2px, transparent 4px),
-    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 1%, #1a1a1a 100%);
+    repeating-linear-gradient(to right, #d3d3d3, transparent 2px),
+    repeating-linear-gradient(to bottom, #d3d3d3, transparent 2px),
+    linear-gradient(to bottom, #e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }
 
 @media (width > 376px) {
