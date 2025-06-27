@@ -1,5 +1,5 @@
 /* В этом файле будут храниться все значения переменных в исходном состоянии, а так же их изменения в зависимости от ширины устройства */
-:root{
+:root {
   --font-inter: Inter;
   --font-inter-header-weight: 700;
   --font-inter-regular-weight: 400;
@@ -22,7 +22,7 @@
 }
 
 @media (width > 376px) {
-  :root{
+  :root {
     --cards-gap: 51px;
   }
 }

@@ -67,7 +67,6 @@
   justify-self: center;
   font-family: var(--font-press-start), fantasy;
   font-weight: 400;
-  font-size: 49px;
   font-size: min(14vw, 49px);
   text-transform: uppercase;
   inline-size: 100%;
@@ -267,6 +266,7 @@
   background-color: transparent;
   inline-size: 130px;
   block-size: 38px;
+  cursor: pointer;
 }
 
 .card__like-button:focus-visible {
@@ -319,6 +319,7 @@
   background-color: var(--card-background-color);
   inline-size: 306px;
   block-size: 80px;
+  cursor: pointer;
 }
 
 .save-button__icon {
@@ -373,6 +374,7 @@
   background-color: transparent;
   min-inline-size: 257px;
   min-block-size: 38px;
+  cursor: pointer;
 }
 
 .dialog__button-text {
