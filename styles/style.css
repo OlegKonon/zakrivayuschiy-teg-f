@@ -247,7 +247,7 @@
   transition: box-shadow 0.3s ease;
 }
 
-.card__like-button:focus-visible {
+.button-focus:focus-visible {
   box-shadow: 2px 2px 0 0 var(--border-color);
 }
 
@@ -299,10 +299,6 @@
   inline-size: 306px;
   cursor: pointer;
   transition: box-shadow 0.3s ease;
-}
-
-.save-button:focus-visible {
-  box-shadow: 2px 2px 0 0 var(--border-color);
 }
 
 .save-button__icon {
@@ -362,10 +358,6 @@
   color: var(--card-background-color);
   cursor: pointer;
   transition: box-shadow 0.3s ease;
-}
-
-.dialog__button:focus-visible {
-  box-shadow: 2px 2px 0 0 var(--border-color);
 }
 
 .dialog__button-text {
